@@ -1,0 +1,23 @@
+.slideWrapper {
+  margin: 0 15px;
+  white-space: nowrap;
+  overflow-x:hidden;
+}
+
+.slideComponent {
+  background-color:darkcyan;
+  height: 500px;
+}
+
+.buttonWrapper {
+  display:flex;
+  justify-content: center;
+}
+
+.buttonWrapper > .left::after {
+  content: '\2190';
+}
+
+.buttonWrapper > .right::after {
+  content: '\2192';
+}
